@@ -5,18 +5,20 @@ The banana index measures the greenhouse gas emissions of different foods, compa
 https://www.kaggle.com/datasets/joebeachcapital/banana-index
 a novel metric for CO2 emissions using bananas as a reference.
 
-• Loadthedata,and remove unnecessary columns and missing/NA.
+• Load the data, and remove unnecessary columns and missing/NA.
 
 • Select a subset of 2 columns useful for clustering.
 
 • Produce a scatter plot of the data, and a scatter plot of the log of the data (eg base 10), discuss whether you should use the log or non-log transformed data for clustering.
-Perform k-medoids clustering and choose a suitable number for k and discuss why (explore
-• Usingyourchoicefork,plotthepoitnswithacolorforeachclusterlabelandplaceamarker in the center of each cluster, and put the name of the food for that medoid (exemplar center) as an annotation label.
-• Look at the separation of the foods based on clusters, and discuss any major differences in the cluster assignments for the names of the foods by printing the food labels for each cluster.
-b.
-the key change for different k). 
-• For each point find the distance to each medoid (cluster center which is an exemplar) for each point (food). This should produce 2 distance values. Produce the absolute difference between those distances and display the set of distances on a histogram.
-• Findthe3closesttozeroonthatdistributionandcommentonthefoodsselected.Plotthose foods as annotations on the scatter plot and discuss the findings for any pattern which can be speculated.
 
-e. Find the 6 most ’extreme’ of the foods by distances from the medoids. You may construct your own metric for that distance based on medoid distance. Print the names of the foods and plot as
-text annotations on the scatter plot.
+• Perform k-medoids clustering and choose a suitable number for k and discuss why (explore the key change for different k).
+
+• Using your choice for k, plot the poitns with a color for each cluster label and place a marker in the center of each cluster, and put the name of the food for that medoid (exemplar center) as an annotation label.
+
+• Look at the separation of the foods based on clusters, and discuss any major differences in the cluster assignments for the names of the foods by printing the food labels for each cluster.
+
+• For each point find the distance to each medoid (cluster center which is an exemplar) for each point (food). This should produce 2 distance values. Produce the absolute difference between those distances and display the set of distances on a histogram.
+
+• Find the 3 closest to zero on that distribution and comment on the foods selected. Plot those foods as annotations on the scatter plot and discuss the findings for any pattern which can be speculated.
+
+• Find the 6 most ’extreme’ of the foods by distances from the medoids. You may construct your own metric for that distance based on medoid distance. Print the names of the foods and plot as text annotations on the scatter plot.
