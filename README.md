@@ -1,13 +1,14 @@
 # Banana-Index
 The banana index measures the greenhouse gas emissions of different foods, comparing them to bananas. It looks at the emissions based on weight, calorie, or protein, and uses CO2-equivalents to account for different types of gases and their impact over 100 years. Essentially, it's a way to compare how efficient different foods are in terms of emissions. For example, strawberries emit 5.18 kilograms of CO2-equivalents for every 1000 calories, while bananas emit 0.88 kilograms per 1000 calories. So, the banana score for strawberries (based on calories) is 5.18 divided by 0.88, which is about 6. This means strawberries have six times the emissions of bananas per calorie.
-Data for this question comes from:
+
+- Data for this question comes from:
 https://www.kaggle.com/datasets/joebeachcapital/banana-index
 a novel metric for CO2 emissions using bananas as a reference.
-a.
-c.
-d.
-• Loadthedata,andremoveunnecessarycolumnsandmissing/NA.
-• Selectasubsetof2columnsusefulforclustering.
+
+• Loadthedata,and remove unnecessary columns and missing/NA.
+
+• Select a subset of 2 columns useful for clustering.
+
 • Produce a scatter plot of the data, and a scatter plot of the log of the data (eg base 10), discuss whether you should use the log or non-log transformed data for clustering.
 Perform k-medoids clustering and choose a suitable number for k and discuss why (explore
 • Usingyourchoicefork,plotthepoitnswithacolorforeachclusterlabelandplaceamarker in the center of each cluster, and put the name of the food for that medoid (exemplar center) as an annotation label.
